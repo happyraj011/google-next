@@ -4,6 +4,7 @@ import React from 'react'
 import SearchBox from './SearchBox'
 import {RiSettings3Line} from 'react-icons/ri';
 import {TbGridDots} from 'react-icons/tb';
+import SearchHeaderOption from './SearchHeaderOption';
 
 
 
@@ -35,6 +36,7 @@ export default function SearchHeader() {
 
 
     </div>
+    <SearchHeaderOption/>
    </header>
   )
 }
